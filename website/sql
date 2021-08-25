@@ -1,0 +1,25 @@
+INSERT INTO order_descriptions (product_list_id, quantity, order_amount, username, order_id) 
+SELECT product_list_id, quantity, amount, username, 'Skylar.256010' 
+FROM cart 
+WHERE username = 'Skylar'
+
+DELETE FROM cart WHERE username = 'Skylar';
+
+
+// TRUNCATE TABLES
+
+TRUNCATE TABLE size_master;
+TRUNCATE TABLE register_log;
+TRUNCATE TABLE user_login;
+TRUNCATE TABLE `profile`;
+TRUNCATE TABLE product_master;
+TRUNCATE TABLE product_log;
+TRUNCATE TABLE product_list;
+TRUNCATE TABLE order_descriptions;
+TRUNCATE TABLE orders;
+TRUNCATE TABLE login_log;
+TRUNCATE TABLE error_log;
+TRUNCATE TABLE discount_master;
+TRUNCATE TABLE color_master;
+TRUNCATE TABLE cloth_master;
+TRUNCATE TABLE cart;

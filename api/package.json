@@ -1,0 +1,41 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "document": "jsdoc index.js fucntions fucntions/master fucntions/android config"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "braces": "^3.0.2",
+    "cors": "^2.8.5",
+    "doxygen": "^0.3.2",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.1.1",
+    "express-sanitizer": "^1.0.5",
+    "isemail": "^3.2.0",
+    "js": "^0.1.0",
+    "md5": "^2.2.1",
+    "mysql": "^2.18.1",
+    "node-api-doc-generator": "^1.1.1",
+    "password-validator": "^5.0.3",
+    "phone": "^2.4.4",
+    "promise": "^8.0.3",
+    "salted-md5": "^4.0.2",
+    "string": "^3.3.3",
+    "underscore": "^1.9.2",
+    "uuid-random": "^1.3.0",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.0",
+    "eslint-config-google": "^0.14.0",
+    "jsdoc": "^3.6.4",
+    "nodemon": "^2.0.2"
+  }
+}
